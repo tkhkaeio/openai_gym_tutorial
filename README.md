@@ -46,6 +46,20 @@ pip install imageio
 
 Note: need to buy license for mujoco, robotics environments
 
+## Run & monitor by Tensorboard
+
+```
+python main.py
+```
+
+```
+tensorboard --logdir logs
+```
+please access `http://localhost:6006/`
+
+<img src="imgs/tb.png">
+
+
 ## Stable Baselines
 collection of RL models' implementations, including A2C, ACER, ACKTR, DDPG, DQN, GAIL, HER, PPO1, PPO2, SAC, TD3, TRPO
 

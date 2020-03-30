@@ -68,6 +68,7 @@ def callback(_locals, _globals):
 def main(args):
     # Create and wrap the environment
     env = gym.make(args.env)
+    env = Monitor(env, log_dir, allow_early_resets=True)
     env = DummyVecEnv([lambda: env]) # alter to a vector environment, change if running in multi-processes
 
     # define the model
