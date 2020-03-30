@@ -1,13 +1,11 @@
 # OpenAI Gym Tutorial
 
-
-
 ## Requirements
 
-Python>=3.6
-TensorFlow==1.14.0
-OpenAI Gym==0.15.3
-Gym Retro==0.7.0
+Python>=3.6 \
+TensorFlow==1.14.0 \
+OpenAI Gym==0.15.3 \
+Gym Retro==0.7.0 \
 Stable Baselines==2.8.0
 
 
